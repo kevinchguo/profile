@@ -4,25 +4,40 @@ import "./App.css";
 import Home from "./views/Home"
 import About from "./views/About"
 import Projects from "./views/Projects"
-import Contact from "./views/Home"
+import Contact from "./views/Contact"
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
-      <h1>Kevin Guo</h1>
-      <div className="navbar">
-        <button><Link to="/home">Home</Link></button>
-        <button><Link to="/about">About</Link></button>
-        <button><Link to="/projects">Projects</Link></button>
-        <button><Link to="/contact">Contact</Link></button>
+      <h1><Header></Header></h1>
+      <div className="content">
+        <div className="navbar">
+          <ul>
+            <li>
+              <Link to="/home">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>        
+            <Link to="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
 
+        </div >
+        <div className="viewArea">
+          <Switch>
+            <Route exact path="/home" component={Home}/>
+            <Route exact path="/about" component={About}/>
+            <Route exact path="/projects" component={Projects}/>
+            <Route exact path="/contact" component={Contact}/>
+          </Switch>
+        </div>
       </div>
-        <Switch>
-          <Route path="/home" component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/projects" component={Projects}/>
-          <Route path="/contact" component={Contact}/>
-        </Switch>
     </div>
   );
 }
