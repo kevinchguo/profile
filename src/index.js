@@ -5,7 +5,8 @@ import {
   Switch,
   Route,
   Link
-} from "react-router-dom";import './index.css';
+} from "react-router-dom";
+import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

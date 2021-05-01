@@ -2,42 +2,40 @@ import React from "react";
 import { Route, Switch, Link } from "react-router-dom";
 import "./App.css";
 import Home from "./views/Home"
-import About from "./views/About"
+import Skills from "./views/Skills"
 import Projects from "./views/Projects"
 import Contact from "./views/Contact"
-import Header from './components/Header'
+import Socials from "./components/Socials";
+import profileImg from "./assets/imgs/profile_img.jpg"
 
 function App() {
   return (
     <div className="App">
-      <h1><Header></Header></h1>
-      <div className="content">
-        <div className="navbar">
-          <ul>
-            <li>
-              <Link to="/home">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>        
-            <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-
-        </div >
-        <div className="viewArea">
-          <Switch>
-            <Route exact path="/home" component={Home}/>
-            <Route exact path="/about" component={About}/>
-            <Route exact path="/projects" component={Projects}/>
-            <Route exact path="/contact" component={Contact}/>
-          </Switch>
-        </div>
+      
+      <div className="viewArea">
+        <Switch>
+          <Route exact path="/profile" component={Home}/>
+          <Route exact path="/skills" component={Skills}/>
+          <Route exact path="/projects" component={Projects}/>
+          <Route exact path="/contact" component={Contact}/>
+        </Switch>
       </div>
+
+      <div className="footer">
+
+        <img src={profileImg} className="profileImg" alt="profile image"/>
+
+        <Socials></Socials>
+
+        <div className="footerNav">
+          <Link to="/profile">Home</Link>
+          <Link to="/skills">Skills</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
+
+      </div>
+
     </div>
   );
 }

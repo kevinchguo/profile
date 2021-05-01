@@ -1,38 +1,55 @@
-.content {
+.App {
   display: flex;
-}
-.navbar {
-  display: flex;
-  text-align: left;
-  margin-top: 0px;
-  margin-right: 50px;
-  padding-left: 5px;
+  align-items: center;
+  flex-direction: column;
+  color: #dcdcdc;
 }
 
 .viewArea {
-  height: auto;
-  width: auto;
+  display: flex;
+  height: 100%;
+  margin: 50px 200px;
 }
 
-li {
-  padding: 10px 0px;
+.profileImg {
+  border-radius: 50%;
+  margin: 25px 0px;
+  height: 150px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 350px;
+  padding: 40px 0px;
+  border-top: 1px solid #dcdcdc;
 }
 
 a:link {
   text-decoration: none;
-  color: black;
+  color: #dcdcdc;
 }
 
 a:visited {
   text-decoration: none;
-  color: black;
+  color: #dcdcdc;
 }
 
 a:hover {
   text-decoration: none;
-  color: black;
+  transition: 0.3ms all ease-in-out;
+  color: #b3b3b3;
 }
 a:active {
   text-decoration: none;
-  color: black;
+  color: #b3b3b3;
 }

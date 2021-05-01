@@ -1,0 +1,16 @@
+.socials {
+  margin: 25px 0px;
+  .socialIcons {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-evenly;
+
+    img {
+      height: 25px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
