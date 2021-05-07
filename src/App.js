@@ -25,14 +25,16 @@ function App() {
 
         <img src={profileImg} className="profileImg" alt="profile image"/>
 
-        <Socials></Socials>
-
         <div className="footerNav">
           <Link to="/profile">Home</Link>
           <Link to="/skills">Skills</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/contact">Contact</Link>
         </div>
+
+        <hr className="solid"></hr>
+
+        <Socials></Socials>
 
       </div>
 
