@@ -25,6 +25,9 @@
   .viewContent {
     justify-content: flex-start;
   }
+  .description {
+    margin: 0;
+  }
 }
 
 .header1 {
@@ -33,7 +36,7 @@
 }
 
 .description {
-  margin: 0 10px;
+  margin: 0 15px;
   color: #bdbdbd;
 }
 
