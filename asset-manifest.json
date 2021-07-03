@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.bdf9c47a.chunk.css",
-    "main.js": "/home/static/js/main.6b9506c3.chunk.js",
-    "main.js.map": "/home/static/js/main.6b9506c3.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.aa0ff3fb.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.aa0ff3fb.js.map",
-    "static/js/2.665a68f0.chunk.js": "/home/static/js/2.665a68f0.chunk.js",
-    "static/js/2.665a68f0.chunk.js.map": "/home/static/js/2.665a68f0.chunk.js.map",
-    "index.html": "/home/index.html",
-    "precache-manifest.0f5db38a0a50049ebe4f20e7241bfddc.js": "/home/precache-manifest.0f5db38a0a50049ebe4f20e7241bfddc.js",
-    "service-worker.js": "/home/service-worker.js",
-    "static/css/main.bdf9c47a.chunk.css.map": "/home/static/css/main.bdf9c47a.chunk.css.map",
-    "static/js/2.665a68f0.chunk.js.LICENSE.txt": "/home/static/js/2.665a68f0.chunk.js.LICENSE.txt",
-    "static/media/github.svg": "/home/static/media/github.da097bb3.svg",
-    "static/media/gitlab.svg": "/home/static/media/gitlab.41d5c535.svg",
-    "static/media/linkedin.svg": "/home/static/media/linkedin.19d54ded.svg",
-    "static/media/resume.svg": "/home/static/media/resume.3c9dd1e6.svg",
-    "static/media/twitter.svg": "/home/static/media/twitter.39fd2e0c.svg"
+    "main.css": "/static/css/main.bdf9c47a.chunk.css",
+    "main.js": "/static/js/main.4ebb5fa7.chunk.js",
+    "main.js.map": "/static/js/main.4ebb5fa7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cc36b19e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cc36b19e.js.map",
+    "static/js/2.665a68f0.chunk.js": "/static/js/2.665a68f0.chunk.js",
+    "static/js/2.665a68f0.chunk.js.map": "/static/js/2.665a68f0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ebf11e3f2d983420df6dd7ed8aa22987.js": "/precache-manifest.ebf11e3f2d983420df6dd7ed8aa22987.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.bdf9c47a.chunk.css.map": "/static/css/main.bdf9c47a.chunk.css.map",
+    "static/js/2.665a68f0.chunk.js.LICENSE.txt": "/static/js/2.665a68f0.chunk.js.LICENSE.txt",
+    "static/media/github.svg": "/static/media/github.da097bb3.svg",
+    "static/media/gitlab.svg": "/static/media/gitlab.41d5c535.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.19d54ded.svg",
+    "static/media/resume.svg": "/static/media/resume.3c9dd1e6.svg",
+    "static/media/twitter.svg": "/static/media/twitter.39fd2e0c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa0ff3fb.js",
+    "static/js/runtime-main.cc36b19e.js",
     "static/js/2.665a68f0.chunk.js",
     "static/css/main.bdf9c47a.chunk.css",
-    "static/js/main.6b9506c3.chunk.js"
+    "static/js/main.4ebb5fa7.chunk.js"
   ]
 }
