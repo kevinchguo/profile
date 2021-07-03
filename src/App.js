@@ -20,13 +20,7 @@ function App() {
       <div className="viewArea">
         <div className="viewContent">
           <Switch>
-            <Route exact path="/">
-             <Redirect to="/home" />
-            </Route>
-            <Route exact path="">
-             <Redirect to="/home" />
-            </Route>
-            <Route exact path="/home" component={Home}/>
+            <Route exact path="/" component={Home}/>
             <Route exact path="/skills" component={Skills}/>
             <Route exact path="/projects" component={Projects}/>
             <Route exact path="/contact" component={Contact}/>
@@ -38,7 +32,7 @@ function App() {
         <div className="footerContent">
 
           <div className="footerNav">
-            <NavLink to="/home" className="linkStyle" activeStyle={activeLinkStyle}>Home</NavLink>
+            <NavLink to="/" className="linkStyle" activeStyle={activeLinkStyle}>Home</NavLink>
             <NavLink to="/skills" className="linkStyle" activeStyle={activeLinkStyle}>Skills</NavLink>
             <NavLink to="/projects"  className="linkStyle"
             activeStyle={activeLinkStyle}>Projects</NavLink>
