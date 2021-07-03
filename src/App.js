@@ -20,7 +20,7 @@ function App() {
       <div className="viewArea">
         <div className="viewContent">
           <Switch>
-            <Route exact path="/profile">
+            <Route exact path="/">
              <Redirect to="/home" />
             </Route>
             <Route exact path="/home" component={Home}/>
