@@ -13,11 +13,21 @@ const Socials = () => {
     <div className={style.socials}>
       
       <div className={style.socialIcons}>
-        <img src={twitterSVG} alt="twitter logo"/>
-        <img src={linkedinSVG} alt="linkedin logo"/>
-        <img src={githubSVG} alt="github logo"/>
-        <img src={gitlabSVG} alt="gitlab logo"/>
-        <img src={resumeSVG} alt="resume logo"/>
+        <a href="https://twitter.com/kevinnnface1" target="_blank" rel="noopener noreferrer">
+          <img src={twitterSVG} alt="twitter logo" className={style.svgIcon}/>
+        </a>
+        <a href="https://www.linkedin.com/in/kevinchguo/" target="_blank" rel="noopener noreferrer">
+          <img src={linkedinSVG} alt="linkedin logo" className={style.svgIcon}/>
+        </a>
+        <a href="https://github.com/kevinchguo" target="_blank" rel="noopener noreferrer">
+          <img src={githubSVG} alt="github logo" className={style.svgIcon}/>
+        </a>
+        <a href="https://gitlab.com/kevinchguo" target="_blank" rel="noopener noreferrer">
+          <img src={gitlabSVG} alt="gitlab logo" className={style.svgIcon}/>
+        </a>
+        <a href="https://drive.google.com/file/d/1hd0KIpRNJdAHrmlt2z8vPJDtx-GZCAOT/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <img src={resumeSVG} alt="resume logo" className={style.svgIcon}/>
+        </a>
       </div>
       
     </div>

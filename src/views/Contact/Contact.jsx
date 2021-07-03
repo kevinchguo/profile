@@ -3,10 +3,11 @@ import style from './Contact.module.scss'
 
 const Contact = () => {
   return ( 
+    <>
     <div className={style.content}>
-      <h1>Get in touch</h1>
-      <div>To contact me, please fill out the following form. All fields are required. I look foward to hearing from you!</div>
+      <div>You can contact me <a href = "mailto: kevinchguo@gmail.com" target="_blank" rel="noopener noreferrer" className={style.link}>here</a>. I look foward to connecting with you!</div>
     </div>
+   </>
    );
 }
  
